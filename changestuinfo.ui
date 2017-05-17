@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangeStuInfo</class>
+ <widget class="QMainWindow" name="ChangeStuInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>480</y>
+      <width>156</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>592</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="5">
+      <widget class="QComboBox" name="sex">
+       <item>
+        <property name="text">
+         <string>男</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>女</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="age"/>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLineEdit" name="tel"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>电话</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>年龄</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>备注</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>身份证号</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="identify"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="acount"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="name"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>学号</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>性别</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>姓名</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" colspan="5">
+      <widget class="QTextEdit" name="textEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>入学时间</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="enroll"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_8">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>毕业时间</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="leave"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="label_10">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>学业状态</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QComboBox" name="condition">
+       <item>
+        <property name="text">
+         <string>学习</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>结业</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>退学</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

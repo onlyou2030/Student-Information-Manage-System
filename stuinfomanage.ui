@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StuInfoManage</class>
+ <widget class="QMainWindow" name="StuInfoManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>学籍管理</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>160</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="addfinfo">
+       <property name="text">
+        <string>添加学生信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="selectinfo">
+       <property name="text">
+        <string>查询学生信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="changeinfo">
+       <property name="text">
+        <string>修改学生信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="deleteinfo">
+       <property name="text">
+        <string>删除学生信息</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
